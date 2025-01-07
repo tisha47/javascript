@@ -368,6 +368,7 @@
               document.getElementById("demo").innerHTML = getting;
            </script> -->
      
+           <!-- switch stat.....
            <script>
             let day;
             switch (new   Date().getDay()){
@@ -392,7 +393,16 @@
                 case 6:
                     day = "Saturday";
             }
-            document.getElementById("demo").innerHTML = day ;
+            document.getElementById("demo").innerHTML = day ; -->
+
+            <script>
+                const name = ["tisha","grimi","yesha","isha"];
+                let value = " ";
+                for (let i = 0; i < name.length; i++){
+                    value += name[i] + "<br/>";
+                }
+                document.getElementById("demo").innerHTML= value;
+            </script>
            </script>
         </body>
 </html>
