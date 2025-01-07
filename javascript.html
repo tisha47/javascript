@@ -323,12 +323,26 @@
           }
           myFunction();
             </script> -->
-          <p id="democode">good evening!!! </p>
+          <!-- <p id="democode">good evening!!! </p>
         
            <script>
              if (new date().getHours() < 18) {
-                document.getElementById("demo").innerHTML = "good day!!";
+                document.getElementById("democode").innerHTML = "good day!!";
              }
+
+             </script> -->
+           <script>
+            const hour = new Date().getHours();
+            let getting ;
+
+            if (hour < 18) {
+               getting = "good morning";
+
+            }
+            else {
+                getting = "good evening";    
+            }
+            document.getElementById("demo").innerHTML = getting;
            </script>
         </body>
 </html>
