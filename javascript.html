@@ -277,14 +277,22 @@
                 document.getElementById("demo").innerHTML = result;
             </script> -->
 
-            <script>
+            <!-- <script>
                  let result = myFunction(4,  5);
                  document.getElementById("demo").innerHTML = result;
 
                  function myFunction(p1,p2 ){
                     return p1 + p2
                 }
-            </script>
+            </script> -->
+            <script>
+                function toCelsius(f) {
+                  return (5/9) * (f-32);
+                }
+                
+                let value = toCelsius(33);
+                document.getElementById("demo").innerHTML = value;
+             </script>
 
         </body>
 </html>
