@@ -406,7 +406,7 @@
                }
                document.getElementById("demo").innerHTML= value;
            </script> -->
-<!-- 
+<!-- for loop for array
            <script>
             const age = ["13","20","32","21","37"];
             let value = " ";
@@ -416,12 +416,25 @@
             document.getElementById("demo").innerHTML = value;
            </script> -->
 
+           <!-- for loop for number
            <script>
             let value = " ";
             for (let i = 0; i < 5; i++){
                 value += "the number is " + i + "</br>";
             }
            document.getElementById("demo").innerHTML = value;
+           </script> -->
+        
+           <script>
+            const name = ["tisha","grimi","yesha","isha","meena"];
+            let i=1;
+            let len = name.length;
+            let value = " ";
+            for ( ; i < len ; i ++){
+               value += name[i] + "</br>";
+            }
+
+            document.getElementById("demo").innerHTML = value;
            </script>
         </body>
 </html>
