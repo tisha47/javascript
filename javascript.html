@@ -438,12 +438,34 @@
             document.getElementById("demo").innerHTML = value;
            </script> -->
 
+           <!-- while loop
            <script>
             let value = " ";
             let i = 0;
             while (i<10){
                  value +="the number is:" + i + "</br>";
                 i ++;
+            }
+            document.getElementById("demo").innerHTML = value;
+           </script> -->
+
+           <!-- do while loop
+           <script>
+            let value = "";
+            let i = 0;
+            do {
+                value += i +"</br>";
+                i++;
+            }while (i<10);
+            document.getElementById("demo").innerHTML = value;
+           </script> -->
+
+           <script>
+            let value = "";
+            for (let i=0; i< 10; i ++){
+                if(i == 4){break ;}{
+                    value += i +"</br>";
+                }
             }
             document.getElementById("demo").innerHTML = value;
            </script>
