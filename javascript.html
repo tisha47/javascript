@@ -303,7 +303,8 @@
 
             </script> -->
  
-     <!--   <script>
+     <!--function 
+      <script>
                 function toCelsius(f) {
                     return  (5/9) * (f -32);
                 }
@@ -323,7 +324,9 @@
           }
           myFunction();
             </script> -->
-          <!-- <p id="democode">good evening!!! </p>
+         
+            <!--if stat...
+             <p id="democode">good evening!!! </p>
         
            <script>
              if (new date().getHours() < 18) {
@@ -331,7 +334,9 @@
              }
 
              </script> -->
-           <!-- <script>
+         
+             <!--if else sta...
+              <script>
             const hour = new Date().getHours();
             let getting ;
 
@@ -345,7 +350,9 @@
             document.getElementById("demo").innerHTML = getting;
            </script> -->
 
-           <script>
+          
+           <!-- else if
+            <script>
               const time = new Date().getHours();
               let getting;
 
@@ -359,6 +366,33 @@
                 getting = "good nignt";
               }
               document.getElementById("demo").innerHTML = getting;
+           </script> -->
+     
+           <script>
+            let day;
+            switch (new   Date().getDay()){
+                case 0 :
+                    day = "Sunday";
+                    break;
+                case 1 :
+                    day = "Monday";
+                break;
+                case 2 :
+                    day = "Tuesday";
+                break;
+                case 3 :
+                    day = "Wednesday";
+                    break;
+                case 4 :
+                    day = "Thursday";
+                    break;
+                case 5:
+                    day = "Friday";
+                    break;
+                case 6:
+                    day = "Saturday";
+            }
+            document.getElementById("demo").innerHTML = day ;
            </script>
         </body>
 </html>
