@@ -460,10 +460,21 @@
             document.getElementById("demo").innerHTML = value;
            </script> -->
 
+           <!-- for loop for break 
            <script>
             let value = "";
             for (let i=0; i< 10; i ++){
                 if(i == 4){break ;}{
+                    value += i +"</br>";
+                }
+            }
+            document.getElementById("demo").innerHTML = value;
+           </script> -->
+
+           <script>
+            let value = "";
+            for (let i=0; i< 10; i ++){
+                if(i == 4){ continue  ;}{
                     value += i +"</br>";
                 }
             }
