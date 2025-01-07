@@ -331,7 +331,7 @@
              }
 
              </script> -->
-           <script>
+           <!-- <script>
             const hour = new Date().getHours();
             let getting ;
 
@@ -343,6 +343,22 @@
                 getting = "good evening";    
             }
             document.getElementById("demo").innerHTML = getting;
+           </script> -->
+
+           <script>
+              const time = new Date().getHours();
+              let getting;
+
+              if (time <10){
+                getting = "good moring";
+
+              }else if (time< 20){
+                getting ="good evening";
+
+              }else {
+                getting = "good nignt";
+              }
+              document.getElementById("demo").innerHTML = getting;
            </script>
         </body>
 </html>
