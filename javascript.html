@@ -302,7 +302,7 @@
                 document.getElementById("demo").innerHTML = value;
 
             </script> -->
-
+<!-- 
             <script>
                 function toCelsius(f) {
                     return  (5/9) * (f -32);
@@ -310,6 +310,18 @@
 
                 let value = "the value is:  " + toCelsius(33) ;
                 document.getElementById("demo").innerHTML = value;
+            </script> -->
+          <p id = "demo2"></p>
+          <script>
+          let text = "Outside: " + typeof carName;
+          document.getElementById("demo").innerHTML = text;
+          
+          function myFunction() {
+            let carName = "Volvo";
+            let text = "Inside: " + typeof carName + " " + carName; 
+            document.getElementById("demo2").innerHTML = text;
+          }
+          myFunction();
             </script>
         </body>
 </html>
