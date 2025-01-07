@@ -570,7 +570,7 @@
             document.getElementById("demo").innerHTML = value;
         </script> -->
            
-        <script>
+        <!-- <script>
              const name =["t","i","s","h","a"];
              let fLen = name.length;
 
@@ -581,8 +581,28 @@
             text += "</ul>";
 
            document.getElementById("demo").innerHTML = text;
+        </script> -->
+
+        <!-- <script>
+            const fruits = ["Banana", "Orange", "Apple"];
+            document.getElementById("demo").innerHTML = fruits;
+
+            function myFunction() {
+                fruits[fruits.length] = "Lemon";
+                document.getElementById("demo").innerHTML = fruits;
+            }
+        </script> -->
+         <button onclick="myFunction()">click</button>
+        <script>
+            const fruits = ["apple","mango","orange"];
+            document.getElementById("demo").innerHTML = fruits;
+
+            function myFunction(){
+                fruits[fruits.length] = "banana";
+                document.getElementById("demo").innerHTML = fruits;
+            }
         </script>
 
-
+        
         </body>
 </html>
