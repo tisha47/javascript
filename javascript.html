@@ -558,15 +558,29 @@
              let value = name[name.length-1]
              document.getElementById("demo").innerHTML = value;
         </script> -->
-
-        <script>
+ 
+       <!-- <script>
             const name =["t","i","s","h","a"];
             let nlen = name.length;
-            let value = " ";
+            let value = "<ul> ";
             for(i=0;i<nlen;i++){
-                value +="<li>"+i +"</li>";
+                value +="<li>"+ i +"</li>";
             }
+            value +=  "<ul> ";
             document.getElementById("demo").innerHTML = value;
+        </script> -->
+           
+        <script>
+             const name =["t","i","s","h","a"];
+             let fLen = name.length;
+
+             let text = "<ul>";
+            for (let i = 0; i < fLen; i++) {
+             text += "<li>" + name[i] + "</li>";
+             }
+            text += "</ul>";
+
+           document.getElementById("demo").innerHTML = text;
         </script>
 
 
