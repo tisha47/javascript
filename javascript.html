@@ -718,10 +718,24 @@
             document.getElementById("demo").innerHTML="name:" + name;
         </script> -->
 
-        <script>
+        <!-- <script>
             const name = {firstname :"tisha",lastname:"jadav",age:"21"};
             document.getElementById("demo").innerHTML = name.firstname + "</br>"+ name.age;
+        </script> -->
+
+        <script>
+            const name = {
+            firstname :"tisha",
+            lastname:"jadav",
+            age:"21",
+            fullname: function() {
+                return this.firstname + " " + this.lastname;
+            }
+        };
+            document.getElementById("demo").innerHTML = name.fullname();
         </script>
+
+        
 
 
         </body>
