@@ -644,7 +644,7 @@
             document.getElementById("demo").innerHTML = value;
         </script> -->
 
-        <script>
+        <!-- <script>
             const name = ["a","b","c"];
             let value = " ";
             let i = 0;
@@ -652,6 +652,17 @@
                 value += name[i];
                 i++
             }
+            document.getElementById("demo").innerHTML = value;
+        </script> -->
+
+        <script>
+            const name = ["a","b","c"];
+            let value = " ";
+            let i = 0;
+            do{
+               value += name[i];
+               i++;
+            }while(i <name.length);
             document.getElementById("demo").innerHTML = value;
         </script>
         
