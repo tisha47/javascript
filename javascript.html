@@ -814,15 +814,15 @@
             }
          </script> -->
 
-         <p>WOrld!!</p>
-        
-
+         
+        <div id ="main"> 
+            <p>WOrld!!</p>
+        </div>
         <script>
-             const element = document.getElementsByTagName("p");
-
-            document.getElementById("demo").innerHTML = 'The text in first paragraph (index 0) is: '
-             + element[0].innerHTML;
-
+             const y = document.getElementById("main");
+             const x = y.getElementsByTagName("p");
+            document.getElementById("main").innerHTML = 'The text in first paragraph (index 0) is: '
+             + x[0].innerHTML;
         </script>
         
 
