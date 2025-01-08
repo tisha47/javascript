@@ -687,8 +687,8 @@
             document.getElementById("demo").innerHTML = day;
         </script> -->
 
-        <script>
-            const hour = new Date().getDay();
+         <script>
+            const hour = new Date().getHours();
             let getting;
             if (hour <18){
                 getting = "good morning";
@@ -696,7 +696,22 @@
                 getting="good evening";
             }
             document.getElementById("demo").innerHTML = getting;
-        </script>
+        </script> 
+
+        <!-- <script>
+            const hour = new Date().getHours();
+            let getting;
+            if (hour <10){
+                getting = "good morning";
+            }
+            else if (hour <20){
+                getting = "good eveing";
+            }
+            else {
+                getting ="good day";
+            }
+            document.getElementById("demo").innerHTML = getting;
+        </script> -->
 
 
         </body>
