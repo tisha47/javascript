@@ -816,12 +816,12 @@
 
          
         <div id ="main"> 
-            <p>WOrld!!</p>
+            <p class = "intro">WOrld!!</p>
         </div>
         <script>
              const y = document.getElementById("main");
-             const x = y.getElementsByTagName("p");
-            document.getElementById("main").innerHTML = 'The text in first paragraph (index 0) is: '
+             const x = y.getElementsByClassName("intro");
+            document.getElementById("main").innerHTML = 'The text in first paragraph is: '
              + x[0].innerHTML;
         </script>
         
