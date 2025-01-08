@@ -813,13 +813,17 @@
                 document.getElementById("demo").innerHTML = err.message;
             }
          </script> -->
-         <p>WOrld!!</p>
-          <p id = "class"></p>
 
-         <script>
-            const element = document.getElementById("p");
-            document.getElementById("class").innerHTML = 'Hello '+ element[0].innerHTML;
-         </script>
+         <p>WOrld!!</p>
+        
+
+        <script>
+             const element = document.getElementsByTagName("p");
+
+            document.getElementById("demo").innerHTML = 'The text in first paragraph (index 0) is: '
+             + element[0].innerHTML;
+
+        </script>
         
 
 
