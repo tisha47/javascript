@@ -768,18 +768,20 @@
         </script> -->
 
         <script>
-            const myobj  ={
+            const myobj  = {
                 firstname : "tisha",
                 lastname : "jadav",
-                age : "21"
-            }
-            const carobj = {
+                age : "21",
+                 carobj : {
                 car1 : "BMW",
                 car2 : "ford",
                 car3 : "verna"
 
+            }
+
             };
-            document.getElementById("demo").innerHTML = myobj.firstname + " " + carobj.car3;
+           
+            document.getElementById("demo").innerHTML = myobj.carobj.car3;
         </script>
         
 
