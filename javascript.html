@@ -740,14 +740,13 @@
                 firstname : "tisha",
                 lastname : "jadav",
                 age : 21
+             };
 
-            };
             const x = person;
-
            
             document.getElementById("demo").innerHTML=  x.age= 24;
         </script> -->
-
+<!-- 
         <script>
             const person = {
                 firstname : "tisha",
@@ -756,8 +755,17 @@
             };
             person.eyes = "black";
             document.getElementById("demo").innerHTML = person.firstname +" eyes color " +person.eyes +" .";
-        </script>
+        </script> -->
 
+        <script>
+            const person = {
+                firstname : "tisha",
+                lastname : "jadav",
+                age : "21"
+            };
+            delete person.age;
+            document.getElementById("demo").innerHTML = person.firstname +" is " +person.age +" years old.";
+        </script>
         
 
 
