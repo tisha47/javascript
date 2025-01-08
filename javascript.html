@@ -813,10 +813,12 @@
                 document.getElementById("demo").innerHTML = err.message;
             }
          </script> -->
-          <p id = "class">WOrld!!!</p>
+         <p>WOrld!!</p>
+          <p id = "class"></p>
+
          <script>
-            const element = document.getElementById("class");
-            document.getElementById("class").innerHTML = "Hello " +element.innerHTML;
+            const element = document.getElementById("p");
+            document.getElementById("class").innerHTML = 'Hello '+ element[0].innerHTML;
          </script>
         
 
