@@ -634,13 +634,24 @@
             document.getElementById("demo").innerHTML = value;
         </script> -->
 
-        <script>
+        <!-- <script>
             let value = " ";
             let i = 0;
             do {
                 value += i;
                 i++
             }while(i < 5);
+            document.getElementById("demo").innerHTML = value;
+        </script> -->
+
+        <script>
+            const name = ["a","b","c"];
+            let value = " ";
+            let i = 0;
+            while (i < name.length){
+                value += name[i];
+                i++
+            }
             document.getElementById("demo").innerHTML = value;
         </script>
         
