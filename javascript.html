@@ -806,12 +806,17 @@
          </script> -->
 
          
-         <script>
+         <!-- <script>
             try{
                 add("welcome!!");
             }catch(err){
                 document.getElementById("demo").innerHTML = err.message;
             }
+         </script> -->
+          <p id = "class">WOrld!!!</p>
+         <script>
+            const element = document.getElementById("class");
+            document.getElementById("class").innerHTML = "Hello " +element.innerHTML;
          </script>
         
 
