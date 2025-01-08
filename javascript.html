@@ -666,7 +666,7 @@
             document.getElementById("demo").innerHTML = value;
         </script> -->
 
-        <script>
+        <!-- <script>
             let day ;
             switch(new Date().getDay()){
                 case 0:day = "sunday";
@@ -685,6 +685,17 @@
                 break;
             } 
             document.getElementById("demo").innerHTML = day;
+        </script> -->
+
+        <script>
+            const hour = new Date().getDay();
+            let getting;
+            if (hour <18){
+                getting = "good morning";
+            }else{
+                getting="good evening";
+            }
+            document.getElementById("demo").innerHTML = getting;
         </script>
 
 
