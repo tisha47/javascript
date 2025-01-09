@@ -939,7 +939,7 @@
             console.log(a>b || a==b);
             console.log(! false);
          </script> -->
-         <script>
+         <!-- <script>
             let a = prompt("heyy,what's age now ?");
           // let a = alert("heyy !");
             a = Number.parseInt(a);
@@ -949,6 +949,22 @@
                 alert("this is not valid");
             }
            
+         </script> -->
+         <script>
+             let a = prompt("heyy,what's age now ?");
+            //  a = Number.parseInt(a);
+            
+            let age ;
+            if(a<0){
+                age ="age is unvalid";
+            }
+             else if(a<10 & a>20){
+                 age ="age is small";
+            }else{
+                age ="age is valid";
+            }
+             console.log(age);   
+            
          </script>
         </body>
 </html>
