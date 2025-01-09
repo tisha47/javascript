@@ -919,8 +919,13 @@
          <script>
             let a = 44;
             let b = 4;
-            console.log("++A =", ++a);
-            console.log("A= ",a );
+            
+            console.log("A++ =", a++);//a = 44, a++ = 45
+            console.log("++A =", ++a);// a =46, ++a = 46
+            console.log("A-- =", +a--);// a = 46, a = 45
+            console.log("--A =", --a);// a = 44, a = 44
+           
+            console.log("A= ",a );//a = 44
          </script>
         </body>
 </html>
