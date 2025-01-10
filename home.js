@@ -67,8 +67,10 @@
 
 let num = prompt("enter the number:");
 let a = Number.parseInt(num);
-if(num%2 == 0 || num % 3 == 0){
-      console.log("this number is devided by 2 or 3");
+if(num%2 == 0){
+      console.log("this number is devided by 2");
+}else if(num % 3 == 0){
+    console.log("this number is devided by  3");
 }else{
-    console.log("this number is not devided by 2 and 3");
+    console.log("this number is not devided by 2 and 3 ");
 }
