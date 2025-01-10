@@ -79,8 +79,17 @@
 // let age = 12;
 // let a = age >=18? "you can drive":"you can not drive";
 // console.log(a);
-let sum = 0;
-for (let i=0; i<10; i++){
-    sum += i;
+
+// let sum = 0;
+// for (let i=0; i<10; i++){
+//     sum += (i*10);
+// }
+// console.log(sum);
+
+let a = prompt("enter the number:");
+a = Number.parseInt(a);
+let i =" ";
+while(i<a){
+    console.log(i);
+    i++;
 }
-console.log(sum);
