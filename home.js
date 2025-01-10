@@ -45,22 +45,30 @@
 // console.log(value);
  //console.log("you can ",a<18 ? "not drive":"drive");
 
- let age = prompt("what's your age?");
+ //let age = prompt("what's your age?");
 //  if(age>10 && age<20){
 //     console.log("your age between 10 to 20");
 //  }else{
 //     console.log("your age is not between 10 to 20");
 //  }
 
-switch(age){
-    case '12':
-        console.log("Your age is 12");
-        break;
-    case '13':
-        console.log("your age is 13");
-        break;
-    case '14':
-        console.log("your age is 14");
-        break;
+// switch(age){
+//     case '12':
+//         console.log("Your age is 12");
+//         break;
+//     case '13':
+//         console.log("your age is 13");
+//         break;
+//     case '14':
+//         console.log("your age is 14");
+//         break;
    
+// }
+
+let num = prompt("enter the number:");
+let a = Number.parseInt(num);
+if(num%2 == 0 && num % 3 == 0){
+      console.log("this number is devided by 2 and 3");
+}else{
+    console.log("this number is not devided by 2 and 3");
 }
