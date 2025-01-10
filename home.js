@@ -30,8 +30,8 @@
 // }
 // console.log(reversNumber(321));
 
-let a = prompt("what's your age ?");
-a = Number.parseInt(a);
+// let a = prompt("what's your age ?");
+// a = Number.parseInt(a);
 //  value = " ";
 // if (a <=0){
 //     value="this is not valid";
@@ -43,4 +43,11 @@ a = Number.parseInt(a);
 //     value="you can driver";
 // }
 // console.log(value);
- console.log("you can ",a<18 ? "not drive":"drive");
+ //console.log("you can ",a<18 ? "not drive":"drive");
+
+ let age = prompt("what's your age?");
+ if(age>10 && age<20){
+    console.log("your age between 10 to 20");
+ }else{
+    console.log("your age is not between 10 to 20");
+ }
