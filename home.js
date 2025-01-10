@@ -32,14 +32,15 @@
 
 let a = prompt("what's your age ?");
 a = Number.parseInt(a);
- value = " ";
-if (a <=0){
-    value="this is not valid";
-}else if (a>0 && a<=9){
-    value="you are a kid you can not drive";
-}else if(a>=9 && a<18){
-    value="you can thing for drive after 18";
-}else{
-    value="you can driver";
-}
-console.log(value);
+//  value = " ";
+// if (a <=0){
+//     value="this is not valid";
+// }else if (a>0 && a<=9){
+//     value="you are a kid you can not drive";
+// }else if(a>=9 && a<18){
+//     value="you can thing for drive after 18";
+// }else{
+//     value="you can driver";
+// }
+// console.log(value);
+ console.log("you can ",a<18 ? "not drive":"drive");
