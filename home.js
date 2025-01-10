@@ -32,13 +32,14 @@
 
 let a = prompt("what's your age ?");
 a = Number.parseInt(a);
+ value = " ";
 if (a <=0){
-    alert("this is not valid");
+    value="this is not valid";
 }else if (a>0 && a<=9){
-    alert("you are a kid you can not drive");
+    value="you are a kid you can not drive";
 }else if(a>=9 && a<18){
-    alert("you can thing for drive after 18");
+    value="you can thing for drive after 18";
 }else{
-    alert("you can driver");
+    value="you can driver";
 }
-console.log(a);
+console.log(value);
