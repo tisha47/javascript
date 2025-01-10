@@ -46,8 +46,21 @@
  //console.log("you can ",a<18 ? "not drive":"drive");
 
  let age = prompt("what's your age?");
- if(age>10 && age<20){
-    console.log("your age between 10 to 20");
- }else{
-    console.log("your age is not between 10 to 20");
- }
+//  if(age>10 && age<20){
+//     console.log("your age between 10 to 20");
+//  }else{
+//     console.log("your age is not between 10 to 20");
+//  }
+
+switch(age){
+    case '12':
+        console.log("Your age is 12");
+        break;
+    case '13':
+        console.log("your age is 13");
+        break;
+    case '14':
+        console.log("your age is 14");
+        break;
+   
+}
