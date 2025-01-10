@@ -17,18 +17,18 @@
 // }
 // console.log(c);
 
-// function reversNumber(num){
-//     if (num>=0 && num<=9){
-//         return num;
-//     }
-//     let reversNumber = 0;
-//      while(num != 0){
-//         reversNumber = reversNumber * 10 + (num % 10);
-//         num = Math.floor(num / 10);
-//      }
-//      return reversNumber;
-// }
-// console.log(reversNumber(321));
+function reversNumber(num){
+    if (num>=0 && num<=9){
+        return num;
+    }
+    let reversNumber = 0;
+     while(num != 0){
+        reversNumber = reversNumber * 10 + (num % 10);
+        num = Math.floor(num / 10);
+     }
+     return reversNumber;
+}
+console.log(reversNumber(4321));
 
 // let a = prompt("what's your age ?");
 // a = Number.parseInt(a);
@@ -86,10 +86,22 @@
 // }
 // console.log(sum);
 
-let a = prompt("enter the number:");
-a = Number.parseInt(a);
-let i =" ";
-while(i<a){
-    console.log(i);
-    i++;
-}
+// let a = prompt("enter the number:");
+// a = Number.parseInt(a);
+// let i =" ";
+// while(i<a){
+//     console.log(i);
+//     i++;
+// }
+
+//let sum = " ";
+
+// for (let i = 1; i<=10 ; i++){
+//     if(i%2 != 0){
+//         console.log(i);
+        
+//     }
+   
+// }
+
+
