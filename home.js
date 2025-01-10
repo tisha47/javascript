@@ -79,7 +79,8 @@
 // let age = 12;
 // let a = age >=18? "you can drive":"you can not drive";
 // console.log(a);
-
+let sum = 0;
 for (let i=0; i<10; i++){
-    console.log(i);
+    sum += i;
 }
+console.log(sum);
