@@ -65,12 +65,21 @@
    
 // }
 
-let num = prompt("enter the number:");
-let a = Number.parseInt(num);
-if(num%2 == 0){
-      console.log("this number is devided by 2");
-}else if(num % 3 == 0){
-    console.log("this number is devided by  3");
-}else{
-    console.log("this number is not devided by 2 and 3 ");
+//  let num = prompt("enter the number:");
+//  let a = Number.parseInt(num);
+// if(num%2 == 0){
+//       console.log("this number is devided by 2");
+// }else if(num % 3 == 0){
+//     console.log("this number is devided by  3");
+// }else{
+//     console.log("this number is not devided by 2 and 3 ");
+// }
+//console.log(a>=18?"you are 18": "you are not 18")
+
+// let age = 12;
+// let a = age >=18? "you can drive":"you can not drive";
+// console.log(a);
+
+for (let i=0; i<10; i++){
+    console.log(i);
 }
