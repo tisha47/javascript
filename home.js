@@ -210,9 +210,21 @@
 //   i++;
 // }
 
-let n = prompt("enter the value of n :");
-let i = 10;
-do{
-  console.log(i);
-  i++;
-}while (i<n)
+// let n = prompt("enter the value of n :");
+// let i = 10;
+// do{
+//   console.log(i);
+//   i++;
+// }while (i<n)
+
+function avg(x , y){
+  return 1+(x + y)/2;
+  console.log("Done");
+}
+let a = 3;
+let b = 2; 
+let c = 6;
+
+console.log("one plus avg of a and b is", avg(a,b));
+console.log("one plus avg of a and b is", avg(b,c));
+console.log("one plus avg of a and b is", avg(a,c));
