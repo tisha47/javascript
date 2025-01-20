@@ -229,15 +229,22 @@
 // console.log("one plus avg of a and b is", avg(b,c));
 // console.log("one plus avg of a and b is", avg(a,c));
 
-let marks = {
-  tisha : 89,
-  yesha : 76,
-  grimi : 67
-}
-// for( let i = 0; i< Object.keys(marks).length; i++){
-//   console.log("the marks of " + Object.keys(marks) [i]+ " are " + marks[Object.keys(marks)[i]]);
+// let marks = {
+//   tisha : 89,
+//   yesha : 76,
+//   grimi : 67
+// }
+// // for( let i = 0; i< Object.keys(marks).length; i++){
+// //   console.log("the marks of " + Object.keys(marks) [i]+ " are " + marks[Object.keys(marks)[i]]);
+// // }
+
+// for ( let i in marks){
+//    console.log("the marks of " + [i] + " are " + marks[i]);
 // }
 
-for ( let i in marks){
-   console.log("the marks of " + [i] + " are " + marks[i]);
+let cn = 40;
+let i ;
+while (i != cn){
+i = prompt ("Enter the correct number ");
+console.log("you have correct number entered")
 }
