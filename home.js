@@ -144,29 +144,34 @@
   
 //   console.log(primeNumbers);
 
-let Day = "";
+// let Day = "";
 
-switch(new Date().getDay()){
-  case 0 :
-    Day = "Sun";
-    break;
-  case 1 :
-    Day = "Mon";
-    break;
-  case 2 :
-    Day = "Tu";
-    break;
-  case 3 :
-    Day = "We";
-    break;
-  case 4 :
-    Day = "th";
-    break;
-  case 5 :
-    Day = "fr";
-    break;
-  case 6 :
-    Day = "sa";
-    break;
+// switch(new Date().getDay()){
+//   case 0 :
+//     Day = "Sun";
+//     break;
+//   case 1 :
+//     Day = "Mon";
+//     break;
+//   case 2 :
+//     Day = "Tu";
+//     break;
+//   case 3 :
+//     Day = "We";
+//     break;
+//   case 4 :
+//     Day = "th";
+//     break;
+//   case 5 :
+//     Day = "fr";
+//     break;
+//   case 6 :
+//     Day = "sa";
+//     break;
+// }
+// console.log(Day);
+let value = " ";
+for( let i = 0; i <= 10 ; i++){
+  value += [i] + " ";
+  console.log (i);
 }
-console.log(Day);
