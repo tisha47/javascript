@@ -202,9 +202,17 @@
 //   points.sort(function(a, b){return a - b});
 //   console.log(points);
 // }
-let n = prompt("enter0 the value of n :");
-let i = 0;
-while (i<n){
+
+// let n = prompt("enter the value of n :");
+// let i = 0;
+// while (i<n){
+//   console.log(i);
+//   i++;
+// }
+
+let n = prompt("enter the value of n :");
+let i = 10;
+do{
   console.log(i);
   i++;
-}
+}while (i<n)
