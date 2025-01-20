@@ -272,4 +272,7 @@ console.log(nam.slice(2 ,4));
 console.log(nam.replace("sha","rtha"));
 
 let friend = "grimi";
-console.log(nam.concat( " a friend of ",friend));
+console.log(nam.concat( " is a friend of ",friend));
+
+let friend2 = "             yesha          ";
+console.log(friend2.trim());
