@@ -17,18 +17,18 @@
 // }
 // console.log(c);
 
-function reversNumber(num){
-    if (num>=0 && num<=9){
-        return num;
-    }
-    let reversNumber = 0;
-     while(num != 0){
-        reversNumber = reversNumber * 10 + (num % 10);
-        num = Math.floor(num / 10);
-     }
-     return reversNumber;
-}
-console.log(reversNumber(4321));
+// function reversNumber(num){
+//     if (num>=0 && num<=9){
+//         return num;
+//     }
+//     let reversNumber = 0;
+//      while(num != 0){
+//         reversNumber = reversNumber * 10 + (num % 10);
+//         num = Math.floor(num / 10);
+//      }
+//      return reversNumber;
+// }
+// console.log(reversNumber(4321));
 
 // let a = prompt("what's your age ?");
 // a = Number.parseInt(a);
@@ -101,7 +101,72 @@ console.log(reversNumber(4321));
 //         console.log(i);
         
 //     }
-   
 // }
 
+// let n = 17;
+// let isPrime = true;
 
+// if (n <= 1) {
+//     isPrime = false;
+// } else {
+//     for (let i = 2; i < n; i++) {
+//         if (n % i === 0) {
+//             isPrime = false;
+//             break;
+//         }
+//     }
+// }
+// console.log(isPrime ? `${n} is a prime number.` : `${n} is not a prime number.`);
+// let n = 17;
+// let prime = true;
+// console.log((n%1 == n%n)? "this is the prime " : "this is not prime");
+
+// function findPrimeNumbers(n) {
+//     const prime = [];
+  
+//     for (let i = 2; i <= n; i++) {
+//       let isPrime = true;
+  
+//       for (let j = 2; j <= Math.sqrt(i); j++) {
+//         if (i % j === 0) {
+//           isPrime = false;
+//           break;
+//         }
+//       }
+//       if (isPrime){
+//         prime.push(i);
+//       }
+//     }
+  
+//     return prime;
+//   }
+//   const primeNumbers = findPrimeNumbers(1000);
+  
+//   console.log(primeNumbers);
+
+let Day = "";
+
+switch(new Date().getDay()){
+  case 0 :
+    Day = "Sun";
+    break;
+  case 1 :
+    Day = "Mon";
+    break;
+  case 2 :
+    Day = "Tu";
+    break;
+  case 3 :
+    Day = "We";
+    break;
+  case 4 :
+    Day = "th";
+    break;
+  case 5 :
+    Day = "fr";
+    break;
+  case 6 :
+    Day = "sa";
+    break;
+}
+console.log(Day);
