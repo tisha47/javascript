@@ -255,4 +255,4 @@
 // console.log(mean(4,5,6,7));
 
 let nam = "tisha";
-console.log(nam);
+console.log(nam.length);
