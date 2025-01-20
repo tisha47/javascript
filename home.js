@@ -249,7 +249,10 @@
 // console.log("you have correct number entered")
 // }
 
-const mean = (a,b,c,d) => {
-  return(a+b+c+d)/4;
-}
-console.log(mean(4,5,6,7));
+// const mean = (a,b,c,d) => {
+//   return(a+b+c+d)/4;
+// }
+// console.log(mean(4,5,6,7));
+
+let nam = "tisha";
+console.log(nam);
