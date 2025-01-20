@@ -265,7 +265,7 @@
 // let fruit = 'apple\'s';
 // console.log(fruit);
 
-let nam = "Tisha";
+//let nam = "Tisha";
 // console.log(nam.toLowerCase());
 // console.log(nam.toUpperCase());
 // console.log(nam.slice(2 ,4));
@@ -276,8 +276,13 @@ let nam = "Tisha";
 
 // let friend2 = "             yesha          ";
 // console.log(friend2.trim());
-let value = " ";
-for (let i = 0; i <nam.length ; i++){
-  value += nam[i];
-  console.log(nam[0],nam[1],nam[2],nam[3],nam[4]);
-}
+
+// let value = " ";
+// for (let i = 0; i <nam.length ; i++){
+//   value += nam[i];
+//   console.log(nam[0],nam[1],nam[2],nam[3],nam[4]);
+// }
+
+const sentence = "the brown fox is here.";
+const word = "fox";
+console.log(`the word "${word} " ${sentence.includes(word) ? 'is' : 'not'} in the sentence`);
