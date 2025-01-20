@@ -269,4 +269,7 @@ let nam = "Tisha";
 console.log(nam.toLowerCase());
 console.log(nam.toUpperCase());
 console.log(nam.slice(2 ,4));
-//console.log(nam.replace("sha","rtha"));
+console.log(nam.replace("sha","rtha"));
+
+let friend = "grimi";
+console.log(nam.concat( " a friend of ",friend));
