@@ -170,8 +170,17 @@
 //     break;
 // }
 // console.log(Day);
-let value = " ";
-for( let i = 0; i <= 10 ; i++){
-  value += [i] + " ";
-  console.log (i);
+
+// let value = " ";
+// for( let i = 0; i <= 10 ; i++){
+//   value += [i] + "<br> ";
+//   console.log (i);
+// }
+let value = "";
+const nm = ["tisha","yesha"];
+
+for (let i = 0; i < nm.length; i++){
+  value += nm[i];
+ 
 }
+console.log(value);
