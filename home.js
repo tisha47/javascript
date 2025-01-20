@@ -266,13 +266,18 @@
 // console.log(fruit);
 
 let nam = "Tisha";
-console.log(nam.toLowerCase());
-console.log(nam.toUpperCase());
-console.log(nam.slice(2 ,4));
-console.log(nam.replace("sha","rtha"));
+// console.log(nam.toLowerCase());
+// console.log(nam.toUpperCase());
+// console.log(nam.slice(2 ,4));
+// console.log(nam.replace("sha","rtha"));
 
-let friend = "grimi";
-console.log(nam.concat( " is a friend of ",friend));
+// let friend = "grimi";
+// console.log(nam.concat( " is a friend of ",friend));
 
-let friend2 = "             yesha          ";
-console.log(friend2.trim());
+// let friend2 = "             yesha          ";
+// console.log(friend2.trim());
+let value = " ";
+for (let i = 0; i <nam.length ; i++){
+  value += nam[i];
+  console.log(nam[0],nam[1],nam[2],nam[3],nam[4]);
+}
