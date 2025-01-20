@@ -242,9 +242,14 @@
 //    console.log("the marks of " + [i] + " are " + marks[i]);
 // }
 
-let cn = 40;
-let i ;
-while (i != cn){
-i = prompt ("Enter the correct number ");
-console.log("you have correct number entered")
+// let cn = 40;
+// let i ;
+// while (i != cn){
+// i = prompt ("Enter the correct number ");
+// console.log("you have correct number entered")
+// }
+
+const mean = (a,b,c,d) => {
+  return(a+b+c+d)/4;
 }
+console.log(mean(4,5,6,7));
