@@ -257,7 +257,10 @@
 // let nam = "tisha";
 // console.log(nam.length);
 
-let boy1 = "parth";
-let boy2 = "Dhrumilsinh";
-let section = `${boy1} is friend of ${boy2}`;
-console.log(section);
+// let boy1 = "parth";
+// let boy2 = "Dhrumilsinh";
+// let section = `${boy1} is friend of ${boy2}`;
+// console.log(section);
+
+let fruit = 'apple\'s';
+console.log(fruit);
