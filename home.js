@@ -262,5 +262,9 @@
 // let section = `${boy1} is friend of ${boy2}`;
 // console.log(section);
 
-let fruit = 'apple\'s';
-console.log(fruit);
+// let fruit = 'apple\'s';
+// console.log(fruit);
+
+let nam = "Tisha";
+console.log(nam.toLowerCase());
+console.log(nam.toUpperCase());
