@@ -254,5 +254,10 @@
 // }
 // console.log(mean(4,5,6,7));
 
-let nam = "tisha";
-console.log(nam.length);
+// let nam = "tisha";
+// console.log(nam.length);
+
+let boy1 = "parth";
+let boy2 = "Dhrumilsinh";
+let section = `${boy1} is friend of ${boy2}`;
+console.log(section);
