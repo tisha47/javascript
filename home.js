@@ -217,14 +217,23 @@
 //   i++;
 // }while (i<n)
 
-function avg(x , y){
-  return 1+(x + y)/2;
-  console.log("Done");
-}
-let a = 3;
-let b = 2; 
-let c = 6;
+// function avg(x , y){
+//   return 1+(x + y)/2;
+//   console.log("Done");
+// }
+// let a = 3;
+// let b = 2; 
+// let c = 6;
 
-console.log("one plus avg of a and b is", avg(a,b));
-console.log("one plus avg of a and b is", avg(b,c));
-console.log("one plus avg of a and b is", avg(a,c));
+// console.log("one plus avg of a and b is", avg(a,b));
+// console.log("one plus avg of a and b is", avg(b,c));
+// console.log("one plus avg of a and b is", avg(a,c));
+
+let marks = {
+  tisha : 89,
+  yesha : 76,
+  grimi : 67
+}
+for( let i = 0; i< Object.keys(marks).length; i++){
+  console.log("the marks of" + Object.keys(marks) [i]+ "are " + marks[Object.keys(marks)[i]]);
+}
