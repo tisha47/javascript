@@ -96,12 +96,12 @@
 
 //let sum = " ";
 
-for (let i = 1; i<=10 ; i++){
-    if(i%2 == 0){
-        console.log(i);
+// for (let i = 1; i<=10 ; i++){
+//     if(i%2 == 0){
+//         console.log(i);
         
-    }
-}
+//     }
+// }
 
 // let n = 17;
 // let isPrime = true;
@@ -177,10 +177,34 @@ for (let i = 1; i<=10 ; i++){
 //   console.log (i);
 // }
 // let value = "";
-// const nm = ["tisha","yesha"];
+
+// const nm = ["yesha","tisha"];
 
 // for (let i = 0; i < nm.length; i++){
 //   value += nm[i];
  
 // }
+// nm.sort();
 // console.log(value);
+
+
+
+
+// const points = [40, 100, 1, 5, 25, 10];
+// console.log(points);
+
+// function myFunction1() {
+//   points.sort();
+//   console.log(points);
+// }
+
+// function myFunction2() {
+//   points.sort(function(a, b){return a - b});
+//   console.log(points);
+// }
+let n = prompt("enter0 the value of n :");
+let i = 0;
+while (i<n){
+  console.log(i);
+  i++;
+}
